@@ -1,0 +1,27 @@
+[package]
+name = "c_build_system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+tempfile = "3.8"
+colored = "2.0"
+log = "0.4"
+env_logger = "0.10"
+which = "4.4"
+walkdir = "2.4"
+rayon = "1.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1.0"
+indicatif = "0.17"
+sha2 = "0.10"
+glob = "0.3"
+toml = "0.8"
+thiserror = "1.0"
+lazy_static = "1.4"
+camino = "1.1"
+dashmap = "5.5"
+num_cpus = "1.16"
+regex = "1.10"

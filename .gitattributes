@@ -1,0 +1,8 @@
+# 모든 텍스트 파일에 자동 변환 적용
+* text=auto
+
+# 특정 파일은 항상 LF로 저장 (Rust 프로젝트에 적합)
+*.rs text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+.gitignore text eol=lf
